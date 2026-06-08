@@ -54,7 +54,7 @@ public class Main {
                     
                 case 4:
                     System.out.println("\n======== Folha de Pagamento ========");
-                    System.out.println("Total cadaastrado: " + lista.size());
+                    System.out.println("Total cadastrado: " + lista.size());
                     for (Colaborador c : lista) {
                         c.exibirDados();
                     }
